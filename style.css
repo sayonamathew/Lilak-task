@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:'Poppins', sans-serif;
+    font-size: 16px;
+    color:#000000;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Header*/
+header{
+    margin: 0px;
+    padding: 24px 78px;
+  
+   /* position: fixed;
+    z-index: 99999;
+    width: 1920px;*/
+}
+.logo{
+    background-color: transparent;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar .menu{
+    display: flex;
+    padding: 10px;
+}
+.menu a{
+    padding: 5px 10px;
+    color: #000000;
+    font-weight: 900;
+    font-size: medium;
+    margin: 0 20px;
+    
+
+}
+/*.menu a:hover{
+    color: rgb(253, 250, 56);
+}*/
+.menu li:last-child a{
+    background-color:rgb(253, 250, 56);
+    border-radius: 7px;
+    padding: 5px 50px;
+   
+    
+}
+.navbar li.active a{
+    border-bottom: 2px solid #000000 ;
+}
+
+
+/*.login-btn{
+    background-color: rgb(253, 250, 56);
+    padding:5px;
+    border-radius: 10px 10px;
+    border: none;
+    width: 120px;
+    cursor: pointer;
+}*
+/
+/*Home page*/
+
+.dolar{
+   
+    margin: 100px
+
+}
+.dolar h3{
+    font-weight: 700;
+}
+.dolar p{
+    font-size: small;
+}
+.dolar-color{
+    color:#4B0082;
+    font-weight: 900;
+}
+.home1-img{
+  margin-top: 100px;
+  margin-right: 100px;
+  width: 500px;
+}
+.dolar-btn{
+    width: 200px;
+    background-color: #4B0082;
+    border: none;
+    border-radius: 25px 25px;
+    padding: 10px;
+    font-size: small;
+    color: #fff;
+}
+/*Section Tow*/
+.section2{
+    margin-top: 100px;
+    background-color: #fffeee;
+    text-align: center;
+    border-radius: 20px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+.section2 h2{
+    margin-top: 50px;
+}
+.section2 p{
+    font-size: x-small;
+}
+.sec2-desc{
+    margin:35px 100px;
+    text-align: center;
+
+}
+.sec2-desc p{
+    font-size: 15px;
+
+}
+
+/*Section3*/
+.section3{
+    margin-top: 100px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section3 h2{
+    font-weight:400;
+}
+.section3 p{
+    font-size: x-small;
+}
+
+.img-box{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img-box img{
+    width: 100px;
+    object-fit:contain;
+    background-color: #fffeee;
+    background-image: linear-gradient(#fffeee, #fffeee);
+}
+
+/*Section 4*/
+.sec4-desc{
+  width: 700px;
+  margin: 10px auto;
+}
+.sec4-desc p{
+    font-size: small;
+}
+.img-icon{
+margin-top: 37px;
+display: flex;
+flex-wrap:nowrap;
+justify-content:space-around;
+
+}
+.img-column{
+    width: 110px;
+    display:block;
+    text-align: center;
+}
+.img-column img{
+    width: 50px;
+    height: 52px;
+}
+.img-column p{
+    font-size: x-small;
+    font-weight: 700;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+   
+}
+
+/*section5*/
+
+.section5{
+    margin-top: 100px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.section5 h2{
+text-align: center;
+width: 570px;
+margin: 0 auto;
+}
+.head p{
+    font-size: x-small;
+    }
+.img-sec5{
+margin-top: 10px;
+  margin-left: 60px;
+  width: 300px;
+  padding: 0px;
+}
+.medium-p{
+    font-size: 15px;
+    margin-left: 80px;
+
+}
+/*Section7*/
+.section7{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.btn-box{
+    width: 700px;
+    height: 300px;
+    background-color: #2d0749;
+    position: relative;
+    margin: 0 auto;
+    padding: 200px;
+    color: #fff;
+   
+}
+.btn-more{
+    background-color:transparent ;
+    width: 7rem;
+    padding: .5rem;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    
+
+}
+.btn-try{
+    background-color:orange ;
+    width: 7rem;
+    padding: .5rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* Footer */
+
+.footer{
+    background-image: linear-gradient(#2d0749,#2d0749);
+    padding: 50px;
+    color: #fff;
+}
+.footer-box p{
+    font-size: 14px;
+    padding-right: 35px;
+    text-align:justify;
+}
+
+.footer-logo{
+    width: 150px;
+    padding-bottom: 20px;
+}
+
